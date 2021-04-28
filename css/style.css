@@ -148,6 +148,39 @@ section.jumbotron .contain a.browser:hover{
 }
 
 
+/* main */
+main section.content{
+    width: 80%;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+main section.content .content-img,
+main section.content .content-text{
+    float: left;
+}
+
+main section.content .content-text{
+    width: calc(100% - 678px);
+    padding: 40px 0 0 70px;
+}
+
+main section.content .content-text h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+main section.content .content-text p{
+    margin-top: 24px;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+main .wave{
+    color: #f6f6f6;
+}
+
 
 /* debug */
 .debug .container-top header .content{
@@ -172,4 +205,22 @@ section.jumbotron .contain a.browser:hover{
 
 .debug section.jumbotron .contain{
     background-color: green;
+}
+
+.debug main{
+    height: 800px;
+    background-color: coral;
+}
+
+.debug main section.content{
+    background-color: darkturquoise;
+    border: 1px solid black;
+}
+
+.debug main section.content .content-img{
+    background-color: burlywood;
+}
+
+.debug main section.content .content-text{
+    background-color: mediumpurple;
 }

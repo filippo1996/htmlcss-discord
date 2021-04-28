@@ -5,10 +5,20 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .clearfix::after{
     content: '';
     display: table;
     clear: both;
+}
+
+.btn{
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -20,7 +30,7 @@
 
 .container-top header .content{
     width: 80%;
-    height: 80px;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -29,6 +39,7 @@
     width: 20%;
     height: 80px;
     float: left;
+    line-height: 80px;
 }
 
 .container-top header .content nav{
@@ -43,7 +54,45 @@
     float: left;
 }
 
+header .content .logo svg{
+    vertical-align: middle;
+}
 
+.container-top header .content nav ul{
+    line-height: 80px;
+    text-align: center;
+}
+
+.container-top header .content nav li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.container-top header .content nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.container-top header .content nav li:hover a{
+    text-decoration: underline;
+}
+
+.container-top header .content .login{
+    line-height: 80px;
+    text-align: right;
+}
+
+.container-top header .content .login a{
+    vertical-align: middle;
+    padding: 10px 12px;
+    background-color: white;
+}
+
+.container-top header .content .login a:hover{
+    color: #7289da;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+}
 
 
 

@@ -190,6 +190,96 @@ main .wave:nth-of-type(even){
     transform: rotate(180deg);
 }
 
+/* footer */
+footer{
+    background-color: #23282A;
+    padding: 80px 0 64px;
+}
+
+footer .content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer .content .top .block{
+    float: left;
+}
+
+footer .content .top .block h4{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #7289DA;
+}
+
+footer .content .top .block .language{
+    margin-top: 24px;
+}
+
+footer .content .top .block .language img{
+    width: 24px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+footer .content .top .block .name-language{
+    color: white;
+}
+
+footer .content .top .block .ico-social{
+    margin-top: 24px;
+}
+
+footer .content .top .block .ico-social a{
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+footer .content .top .block ul{
+    padding: 8px 0 0 80px;
+}
+
+footer .content .top .block ul li{
+    display: block;
+    line-height: 30px;
+    color: white;
+}
+
+footer .content .top .block ul li.title{
+    color: #7289DA;
+}
+
+footer .content .bottom{
+    margin-top: 40px;
+    border-top: 1px solid #7289DA;
+}
+
+footer .content .bottom .logo{
+   line-height: 100px;
+   float: left;
+}
+
+footer .content .bottom .logo svg{
+    vertical-align: middle;
+}
+
+footer .content .bottom .sign-in{
+    line-height: 100px;
+    float: right;
+ }
+
+ footer .content .bottom .sign-in a{
+     background-color: #7289DA;
+     padding: 12px 14px;
+     color: white;
+ }
+
+ footer .content .bottom .sign-in a:hover{
+     background-color: #8ea1e1;
+ }
+
 
 /* debug */
 .debug .container-top header .content{
@@ -231,4 +321,29 @@ main .wave:nth-of-type(even){
 
 .debug main section .content .content-text{
     background-color: mediumpurple;
+}
+
+.debug footer .content{
+    height: 100%;
+    background-color: brown;
+}
+
+.debug footer .content .top{
+    background-color: chartreuse;
+    border: 2px solid red;
+}
+
+.debug footer .content .bottom{
+    background-color:darkgoldenrod;
+    height: 100px;
+}
+
+.debug footer .content .top .block{
+    width: calc(100% / 5);
+    height: 300px;
+    background-color: darkgray;
+}
+
+.debug footer .content .bottom .logo{
+    background-color: yellow;
 }

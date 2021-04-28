@@ -16,7 +16,7 @@ body{
 }
 
 .btn{
-    border-radius: 20px;
+    border-radius: 30px;
     text-decoration: none;
     color: black;
 }
@@ -94,6 +94,58 @@ header .content .logo svg{
     box-shadow: 0 8px 15px rgba(0,0,0,.2);
 }
 
+/* section jumbotron */
+section.jumbotron{
+    min-height: 550px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+section.jumbotron .contain{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 52%;
+}
+
+section.jumbotron .contain h1{
+    font-size: 56px;
+    font-weight: 700;
+    color: white;
+}
+
+section.jumbotron .contain p{
+    margin: 35px 0 50px;
+    font-size: 20px;
+    line-height: 32px;
+    color: white;
+}
+
+section.jumbotron .contain a.download{
+    background-color: white;
+    padding: 16px 32px;
+    margin-right: 20px;
+}
+
+section.jumbotron .contain a.download:hover{
+    color: #7289da;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+}
+
+section.jumbotron .contain a.browser{
+    background-color: black;
+    padding: 16px 32px;
+    color: white;
+}
+
+section.jumbotron .contain a.browser:hover{
+    background-color: #36393f;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+}
 
 
 
@@ -111,5 +163,13 @@ header .content .logo svg{
 }
 
 .debug .container-top header .content .login{
+    background-color: green;
+}
+
+.debug section.jumbotron{
+    background-color: brown;
+}
+
+.debug section.jumbotron .contain{
     background-color: green;
 }

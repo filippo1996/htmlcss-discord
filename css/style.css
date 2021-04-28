@@ -1,0 +1,66 @@
+/* common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* header */
+.container-top header{
+    height: 80px;
+    background-color: #2a5ee8;
+}
+
+.container-top header .content{
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+}
+
+
+.container-top header .content .logo{
+    width: 20%;
+    height: 80px;
+    float: left;
+}
+
+.container-top header .content nav{
+    width: 60%;
+    height: 80px;
+    float: left;
+}
+
+.container-top header .content .login{
+    width: 20%;
+    height: 80px;
+    float: left;
+}
+
+
+
+
+
+
+/* debug */
+.debug .container-top header .content{
+    background-color: yellow;
+}
+
+.debug .container-top header .content .logo{
+    background-color: red;
+}
+
+.debug .container-top header .content nav{
+    background-color: pink;
+}
+
+.debug .container-top header .content .login{
+    background-color: green;
+}
